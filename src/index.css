@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  @apply text-neutral-900;
+}
+
+/* Custom styles for form elements */
+input, textarea {
+  @apply p-2 border rounded-md w-full;
+}
